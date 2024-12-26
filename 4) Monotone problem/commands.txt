@@ -1,0 +1,16 @@
+Создаём и запускаем исполняемый файл через консоль:
+g++ ./src/monotone.cpp -o monotone.out
+./monotone.out
+Затем ввести входные данные, соответствующие формату ввода задачи (примеры в папке ./tests).
+
+
+* Либо билдим через cmake (на linux/wsl):
+Выбор типа билда:
+1) Прожать ctrl-shift-P (cmd-shift-P на MacOS), написать CMake и выбрать "CMake: Select Variant".
+либо
+2) Установить расширение "CMake Tools" (Extensions ~ Ctrl+Shift+X) > settings > "Status bar visibility" > выбрать "visible".
+
+Для обновления вариантов build:
+Прожать ctrl-shift-P, написать CMake и выбрать "CMake: Configure".
+
+Выбираем build target (all) и нажимаем build > в папке build появляется исполняемый файл > запускаем его ./build/monotone > вводим входные данные.
