@@ -1,0 +1,5 @@
+# Ignore ALL "build" folders
+**/build
+
+# Ignore ALL linux-executable files
+*.out

@@ -1,0 +1,23 @@
+{
+    "buildType": {
+        "default": "debug",
+        "description": "The build type.",
+        "choices": {
+            "debug": {
+                "short": "Debug",
+                "long": "Disable optimizations - include debug information.",
+                "buildType": "Debug"
+            },
+            "asan": {
+                "short": "Asan",
+                "long": "Instrument with Address Sanitizer",
+                "buildType": "Asan"
+            },
+            "release": {
+                "short": "Release",
+                "long": "Optimized release version for Yandex.Contest",
+                "buildType": "Release"
+            }
+        }
+    }
+}
